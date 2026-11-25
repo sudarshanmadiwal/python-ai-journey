@@ -1,6 +1,8 @@
 count = 0
-def increment(count):
-    count = count+1
-    print(count)
+def increment(value):
+    return value+1
 
-increment(count)
+
+for _ in range(3):
+    count = increment(count)
+    print(count)
